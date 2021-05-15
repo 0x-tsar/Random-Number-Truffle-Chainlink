@@ -2,6 +2,7 @@ const RandomNumberConsumer = artifacts.require("RandomNumberConsumer.sol");
 const LinkCoin = artifacts.require("LinkCoin.sol");
 
 module.exports = async done => {
+  
     const randomNumberConsumer = await RandomNumberConsumer.deployed();
     const linkCoin = await LinkCoin.deployed();
 
