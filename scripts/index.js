@@ -8,7 +8,7 @@ module.exports = async done => {
 
     const contractAddress = randomNumberConsumer.address;
     const contractBalance = await linkCoin.balanceOf(contractAddress);
-    console.log(`contract balance:  ${parseInt(contractBalance)}`);
+    console.log(`contract bal  ance:  ${parseInt(contractBalance)}`);
 
     //   await myDeFiProject.borrow(cBatAddress, web3.utils.toWei('0.00000001'));
     // console.log(randomNumberConsumer);
